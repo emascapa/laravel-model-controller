@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PageController@index')->name('index');
+Route::get('/', 'MovieController@index')->name('index');
 
 Route::get('/rating', 'PageController@ratingPage')->name('ratingPage');
